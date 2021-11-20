@@ -10,8 +10,8 @@ fun main() = runBlocking<Unit> {
         println("My job is ${coroutineContext[Job]}")
         //isActive
     }
-    //coroutineContext[Job]?.isActive
-    //job.isActive
+    println(coroutineContext[Job]?.isActive)
+    println(job.isActive)
 }
 
 

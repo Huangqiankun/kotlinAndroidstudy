@@ -16,7 +16,7 @@ fun main() = runBlocking<Unit> {
         }
         println("request: I'm done and I don't explicitly join my children that are still active")
     }
-    //request.join()
+//    request.join()
     println("Now processing of the request is complete")
 }
 
