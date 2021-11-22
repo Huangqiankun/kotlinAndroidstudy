@@ -1,3 +1,0 @@
-include ':coroutines'
-include ':app'
-rootProject.name = "kotlinAndroidstudy"
